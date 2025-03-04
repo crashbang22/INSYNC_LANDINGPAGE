@@ -4,7 +4,7 @@ import { CalendlyEmbed } from "@/components/CalendlyEmbed"
 import { ScrollAnimation } from "@/components/ScrollAnimation"
 import { useRef } from "react"
 
-const Logo = () => <div className="text-2xl font-bold text-royal-600">InSync</div>
+const Logo = () => <div className="text-2xl font-bold text-royal-600">INSYNC</div>
 
 const professionals = [
   {
@@ -94,7 +94,7 @@ export default function Page() {
       {/* Professionals Section */}
       <section className="py-20 container mx-auto px-4">
         <ScrollAnimation>
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">InSync Has Worked With</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">INSYNC Has Worked With</h2>
         </ScrollAnimation>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {professionals.map((professional, index) => (
