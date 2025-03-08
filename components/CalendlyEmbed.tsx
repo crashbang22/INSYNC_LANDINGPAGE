@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 
 interface CalendlyEmbedProps {
-  url: string
+  data-url: string
 }
 
 export function CalendlyEmbed({ url }: CalendlyEmbedProps) {
