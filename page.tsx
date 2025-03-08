@@ -286,7 +286,7 @@ export default function Page() {
           </ScrollAnimation>
           <ScrollAnimation delay={0.4}>
             <div className="max-w-4xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border border-royal-600">
-              <CalendlyEmbed url="https://calendly.com/contact-insyncmarketing" />
+              <CalendlyEmbed url="https://calendly.com/contact-insyncmarketing/30min" />
             </div>
           </ScrollAnimation>
         </div>
