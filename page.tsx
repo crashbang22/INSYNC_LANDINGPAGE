@@ -57,7 +57,7 @@ export default function Page() {
   }
 
   return (
-    <main className="min-h-screen bg-black text-white"></main>
+    <main className="min-h-screen bg-black text-white">
       {/* Hero Section with Video Background */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute top-4 left-4 z-20">
