@@ -286,7 +286,10 @@ export default function Page() {
           </ScrollAnimation>
           <ScrollAnimation delay={0.4}>
             <div className="max-w-4xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border border-royal-600">
-              <CalendlyEmbed url="https://calendly.com/contact-insyncmarketing/30min" />
+              <CalendlyEmbed 
+                <div class="calendly-inline-widget" url="https://calendly.com/contact-insyncmarketing/30min" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+              />
             </div>
           </ScrollAnimation>
         </div>
